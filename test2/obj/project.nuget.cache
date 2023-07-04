@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "5PslHRG7hY72SRUGF/mXlsoXg9IMJXY3Ity8IOy8a2v4IQRCTENU+2UPWUicL9b13y9p5mCNbldPsNbLH2LZ8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cysanchez\\OneDrive - KPMG\\Desktop\\test\\test2\\test2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cysanchez\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\microsoft.testplatform.objectmodel\\16.5.0\\microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\microsoft.testplatform.testhost\\16.5.0\\microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\selenium.support\\4.9.1\\selenium.support.4.9.1.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\selenium.webdriver\\4.10.0\\selenium.webdriver.4.10.0.nupkg.sha512",
+    "C:\\Users\\cysanchez\\.nuget\\packages\\selenium.webdriver.msedgedriver\\114.0.1823.43\\selenium.webdriver.msedgedriver.114.0.1823.43.nupkg.sha512"
+  ],
+  "logs": []
+}
