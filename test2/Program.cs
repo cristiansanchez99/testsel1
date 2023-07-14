@@ -17,7 +17,7 @@ public class TestClass
     [SetUp]
     public void ReadCredentials()
     {
-        string configPath = "C:/Users/cysanchez/OneDrive - KPMG/Desktop/test/test2/config.json"; 
+        string configPath = @"../test2/config.json"; 
 
         if (File.Exists(configPath))
         {
