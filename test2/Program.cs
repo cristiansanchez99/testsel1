@@ -3,6 +3,8 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using Newtonsoft.Json;
 
+
+
 [TestFixture]
 public class TestClass
 {
@@ -10,14 +12,9 @@ public class TestClass
     private string _username;
     private string _password;
     
-    [TearDown]
-    public void Quitar()
-    {
-        // Cerrar el navegador
-       driver.Quit();
-    }
+   
 
-    [OneTimeSetUp]
+    [SetUp]
     public void ReadCredentials()
     {
         string configPath = "C:/Users/cysanchez/OneDrive - KPMG/Desktop/test/test2/config.json"; 
@@ -44,7 +41,7 @@ public class TestClass
     }
 
   
-    [SetUp]
+    [Test,Order(1)]
     public void Login()
     {
 
@@ -80,10 +77,11 @@ public class TestClass
        Thread.Sleep(tiempoEspera);
     }
 
-    [Test]
+    [Test,Order(2)]
    public void Busquedausers(){
 
         int tiempoEspera = 2000;
+
 
         driver.FindElement(By.XPath("//*[@id='navbar']/ul[1]/li[2]/a")).Click();
         Thread.Sleep(tiempoEspera);
@@ -98,7 +96,7 @@ public class TestClass
         
     }   
 
-     [Test]
+     [Test,Order(3)]
     public void Busquedacliente()
     {
 
@@ -115,7 +113,7 @@ public class TestClass
         Thread.Sleep(tiempoEspera);
     }
 
-    [Test]
+    [Test,Order(4)]
     public void Busquedamodulos(){
 
         int tiempoEspera = 2000;
@@ -131,7 +129,7 @@ public class TestClass
         
     }
 
-    [Test]
+    [Test,Order(5)]
     public void Busquedarol(){
 
         int tiempoEspera = 2000;
@@ -146,7 +144,7 @@ public class TestClass
         Thread.Sleep(tiempoEspera);
         
     }
-    [Test]
+    [Test,Order(6)]
     public void Busquedapermisos(){
 
         int tiempoEspera = 2000;
@@ -159,7 +157,7 @@ public class TestClass
         Thread.Sleep(tiempoEspera);
 
         
-}   [Test]  
+}   [Test,Order(7)]  
     public void auditoria(){
         
         int tiempoEspera = 2000;
@@ -169,6 +167,16 @@ public class TestClass
         Thread.Sleep(tiempoEspera);
         driver.FindElement(By.Id("btnBuscar")).Click();
         Thread.Sleep(tiempoEspera);
-        
-    }
+        driver.FindElement(By.XPath("//*[@id='dtUsuario']/div/div[5]/div/table/tbody/tr[2]/td[4]/div/div[1]/div/ul/li/div/div[1]/i")).Click();
+        driver.FindElement(By.XPath("//*[@id='dtUsuario']/div/div[4]/div/div/div[3]/div[1]/div/div")).Click();
+        Thread.Sleep(tiempoEspera);
+        driver.Quit();
+        Thread.Sleep(tiempoEspera);
+    }/*
+     [TearDown]
+    public void Quitar()
+    {
+        // Cerrar el navegador
+       driver.Quit();
+    }*/
 }
